@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace Assets.Korzina.Scripts
+{
+    public class ShopManager:MonoBehaviour
+    {
+        public Button button;
+        public Text cost_text;
+
+        public int cost;
+        public int cost_mult;
+
+        void Start()
+        {
+
+        }
+    }
+}
